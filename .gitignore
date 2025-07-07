@@ -1,0 +1,5 @@
+csvs/*
+export-logs.log
+.idea/*
+.env
+venv_sql_s3/*

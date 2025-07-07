@@ -1,0 +1,17 @@
+fields_mapping = {
+    "id": "int",
+    "model_number": "string",
+    "longitude": "geo_point",
+    "latitude": "geo_point",
+    "model_owner": "string",
+    "model_type": "string",
+    "address": "string",
+    "height": "double",
+    "city": "string",
+    "description": "string",
+    "status": "string",
+    "progress_status": "string",
+    "process_date": "date",
+    "es_index": "int",
+    "tbl_order": "int",
+}
