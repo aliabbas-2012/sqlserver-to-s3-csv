@@ -23,4 +23,7 @@ A lightweight Python tool that connects to Microsoft SQL Server, exports your ta
 Install all requirements with:
 
 ```bash
+python3 -m venv venv_sql_s3
+source venv_sql_s3/bin/activate
 pip install -r requirements.txt
+
