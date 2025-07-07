@@ -3,3 +3,8 @@ export-logs.log
 .idea/*
 .env
 venv_sql_s3/*
+db/__pycache__/
+notifications/__pycache__/
+s3/__pycache__/
+utils/__pycache__/
+processor/__pycache__/
