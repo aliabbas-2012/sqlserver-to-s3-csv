@@ -32,7 +32,7 @@ A lightweight Python tool to connect to Microsoft SQL Server, export your table 
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/sqlserver-to-s3-csv.git
+    git clone https://github.com/aliabbas-2012/sqlserver-to-s3-csv.git
     cd sqlserver-to-s3-csv
     ```
 
