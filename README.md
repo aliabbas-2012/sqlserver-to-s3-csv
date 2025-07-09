@@ -48,9 +48,28 @@ A lightweight Python tool to connect to Microsoft SQL Server, export your table 
 
 ---
 
+## Sample Data
+
+For testing and demonstration, this repo includes:
+
+- `sql/exportTbl.sql`: A sample SQL Server DDL file located in the `sql` folder to create the `exportTbl` table.
+- Sample data (`2.2 million records`) is available in CSV format and can be used to test the exporter.
+
+To use:
+
+1. Run `sql/exportTbl.sql` on your SQL Server to create the sample table.
+2. Rename `.env.sample` to `.env` and update the table name and connection details accordingly.
+3. Download the sample CSV data from the link below, unzip it, and import it into your SQL Server.
+
+**Download Sample Data (ZIP):**  
+[https://drive.google.com/file/d/1W80JMBP3etnVJbigDdTkPJDfwLewpH3i/view?usp=sharing](https://drive.google.com/file/d/1W80JMBP3etnVJbigDdTkPJDfwLewpH3i/view?usp=sharing)
+
+
 ## Usage
 
 Run the exporter:
 
 ```bash
 python main.py
+
+
